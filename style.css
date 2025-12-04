@@ -1,0 +1,82 @@
+@font-face {
+  font-family: 'HeadingFont';
+  src: url(./chinese\ rocks\ rg.otf) format('truetype');
+}
+
+@font-face {
+  font-family: 'BodyFont';
+  src: url('./Merich.otf') format('truetype');
+}
+
+/* Default font for everything */
+body {
+  font-family: 'BodyFont', sans-serif;
+}
+
+/* Special font for just h1 */
+h1 {
+  font-family: 'HeadingFont', serif;
+}
+
+/* @font-face {  
+    font-family: Ariston;
+    src: url(./chinese\ rocks\ rg.otf);
+}
+
+h1{
+    font-family: Ariston;
+}
+p{
+    font-family: Ariston;
+}
+h2{
+font-family: Ariston;
+}
+h3{
+    font-family: Ariston;
+}
+
+@font-face {
+    font-family: 'Milker';
+    src: url('fonts/Milker') format('Milker'),
+         url('fonts/Milker') format('Milker');
+}
+
+body {
+    font-family: 'Milker', sans-serif;
+}
+/*  */
+
+.menu-scroll {
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+    padding: 15px;
+}
+
+.menu-card {
+    min-width: 150px;
+    background: white;
+    padding: 10px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0px 3px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.menu-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.menu-card h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.menu-card p {
+    font-size: 16px;
+    margin: 0;
+}
